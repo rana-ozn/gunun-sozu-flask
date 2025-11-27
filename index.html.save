@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kelime Oyunu</title>
+</head>
+<body>
+    <h1 style="color: blue;">Kelime Oyunu</h1>
+    <form method="POST" action="/kelimeoyunu-chosen-get">
+        <input type="text" name="tahmin" placeholder="Kelimenizi girin">
+        <button style="background-color: #4CAF50; color: white; padding: 10px; border-radius: 5px;">
+            Kelimeyi Gönder
+        </button>
+    </form>
+</body>
+</html>
+
